@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wallet Address Checker</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="walletAddress" placeholder="Enter Wallet Address">
+        <select id="network">
+            <option value="ETH">ETH</option>
+            <option value="ARB">ARB</option>
+            <option value="OPT">OPT</option>
+            <option value="BTC">BTC</option>
+        </select>
+        <button onclick="checkAddress()">Check Address</button>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
