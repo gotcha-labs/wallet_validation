@@ -5,6 +5,7 @@ function checkAddress() {
     var proxyDomain = 'https://cors-proxy-alpha.vercel.app';
 
     fetch(proxyDomain, {
+        mode: 'no-cors',
         headers: {
             'my-url': originalApiUrl
         }
